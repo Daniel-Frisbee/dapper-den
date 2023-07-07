@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dapper Den Barbershop</title>
+  <link rel="icon" type="image/png" href="barbershop.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="haircuts.css">
+  <style>
+    body {
+      cursor: url('cursor.png'), auto;
+      font-family: "helvetica", sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #424141;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .shave-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .shave-item {
+      flex: 0 0 calc(33.33% - 20px);
+      padding: 10px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .shave-item img {
+      width: 100%;
+    }
+
+    .shave-item span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="haircuts.html">Hair</a></li>
+        <li><a href="shaves.html">Face</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#contact">Follow Us</a></li>
+        <li><a href="#contact">Find Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="hero">
+      <h1>DAPPER DEN</h1>
+      <h2>...a cut above since 1922</h2>
+      <p></p>
+      <a href="#services" class="button">Discover Our Services</a>
+    </section>
+
+    <section id="services">
+      <div class="service">
+        <a href="haircuts.html">
+          <img src="haircut.png" alt="Image of a man aged around 30 having his hair cut">
+          <h3>Hair</h3>
+          <p>Experience our skilled barbers who will give you a fresh and stylish haircut.</p>
+        </a>
+      </div>
+      <div class="service">
+        <a href="shaves.html">
+          <img src="shave.png" alt="Image of a man aged around 30 having his beard trimmed">
+          <h3>Face</h3>
+          <p>Indulge in a classic shave that will leave your skin feeling smooth and refreshed.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Our Story</h2>
+      <p>Founded in 1922 by the visionary barber, Edward “Eddie” Edwardson, The Dapper Den has remained a symbol of style, craftsmanship, and community in the heart of its bustling city.<br>Situated on the sky parlour of the historic Stockport Pyramid, this iconic establishment has been providing top-notch grooming services for over a century.</p>
+    </section>
+    
+    <section id="contact">
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <p>For appointments and inquiries, please fill out the form below or give us a call on 0161 000 0000</p>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Your Name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Your Email">
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+          <a href="https://www.facebook.com">Facebook</a>
+          <a href="https://www.twitter.com">Twitter</a>
+          <a href="https://www.instagram.com">Instagram</a>
+        </div>
+      </div>
+      <div class="google-maps">
+        <h2>Find Us</h2>
+        <h2><iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d9513.526677767031!2d-2.1754!3d53.408!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNTPCsDI0JzI4LjgiTiAywrAxMCczMS40Ilc!5e0!3m2!1sen!2suk!4v1688654091059!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></h2>
+    </section>
+    
+    <style>
+      .contact-form p {
+        margin-bottom: 20px;
+      }
+    </style>
+    
+    
+  </main>
+  <footer>
+    <section class="rights-reserved">
+      <p>&copy; 2023 Dapper Den. All rights reserved.</p>
+    </section>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,258 @@
+body {
+  font-family: "helvetica", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-image: url('trad.png');
+  background-size: cover;
+  background-color: #333;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:visited {
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color: #d2b48c;
+}
+
+#hero {
+  background-image: url('barber.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+}
+
+#hero h1,
+#hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#hero h2 {
+  color: #d2b48c;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 35px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #444;
+}
+
+#services {
+  background-image: url('barber2.png');
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+#services h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.service {
+  display: inline-block;
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.service h3 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #fff;
+}
+
+.service a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#about {
+  background-image: url('trad.png');
+  background-size: cover;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #d2b48c;
+}
+
+#contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  flex: 1;
+  text-align: left;
+}
+
+.social-media {
+  flex: 1;
+  margin-left: 20px;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  background-image: url('trad.png');
+  background-size: cover;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+header,
+.button,
+#services .service,
+#about,
+#contact,
+footer {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul li a,
+.service a,
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #fff;
+}
+
+nav ul li a:hover,
+.button:hover {
+  color: #d2b48c;
+}
+
+#hero {
+  background-color: #333;
+}
+
+.service {
+  background-color: #444;
+}
+
+#services h2,
+.service h3,
+#about h2,
+#contact h2 {
+  color: #fff;
+}
+
+form button {
+  background-color: #fff;
+  color: #333;
+  text-decoration: none;
+}
+
+footer p,
+.rights-reserved p {
+  color: #fff;
+}
+
+.social-media h3 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #d2b48c;
+}
+
+.rights-reserved {
+  text-align: center;
+  color: white;
+}
